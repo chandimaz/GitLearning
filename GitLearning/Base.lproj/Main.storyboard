@@ -69,6 +69,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="gHl-cr-jnL" id="pCu-n6-F0c"/>
+                        <outlet property="usernameTextFiled" destination="oRY-Ly-vhE" id="hQn-Yk-V29"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

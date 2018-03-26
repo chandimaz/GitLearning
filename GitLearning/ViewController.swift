@@ -12,7 +12,9 @@ class ViewController: UIViewController {
     
     let userName = "Alex"
     let girlUser = "Alexaa"
-
+    @IBOutlet weak var usernameTextFiled: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
