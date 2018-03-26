@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     var girlUser = "Alexaa"
     var password = ""
     var validateUser = ""
-    var completionHandler = ""
+    var completionHandler = "gg"
     
     @IBOutlet weak var usernameTextFiled: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
