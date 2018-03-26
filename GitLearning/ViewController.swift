@@ -10,8 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let userName = "Alex"
-    let girlUser = "Alexaa"
+    var userName = "Alex"
+    var girlUser = "Alexaa"
+    var password = ""
+    
     @IBOutlet weak var usernameTextFiled: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
@@ -23,6 +25,12 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func changeUserBehaviour() {
+        
+        userName = usernameTextFiled.text!
+        password = passwordTextField.text!
     }
 
 
